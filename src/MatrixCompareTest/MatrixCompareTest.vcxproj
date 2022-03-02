@@ -155,6 +155,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestCasesMatrixAddition.h" />
+    <ClInclude Include="TestCasesMatrixAdditionIterate.h" />
     <ClInclude Include="TestSuite.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

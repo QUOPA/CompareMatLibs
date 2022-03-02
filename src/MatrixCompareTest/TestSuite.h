@@ -1,6 +1,7 @@
 #pragma once
 
 #include "TestCasesMatrixAddition.h"
+#include "TestCasesMatrixAdditionIterate.h"
 
 namespace matrixTwoMatAddition
 {
@@ -20,4 +21,26 @@ namespace matrixFiveMatAddition
 		REGISTERTESTCASE(testEigenMatrix, matSize)
 		REGISTERTESTCASE(testMyMatrix, matSize)
 	}
+}
+
+namespace matrixTwoMatAdditionIterate
+{
+	void TestSuite(size_t matSize, int NumIter)
+	{
+		REGISTERTESTCASE(testBaseLine, matSize, NumIter)
+		REGISTERTESTCASE(testEigenMatrix, matSize, NumIter)
+		REGISTERTESTCASE(testMyMatrix, matSize, NumIter)
+	}
+
+}
+
+namespace matrixFiveMatAdditionIterate
+{
+	void TestSuite(size_t matSize, int NumIter)
+	{
+		REGISTERTESTCASE(testBaseLine, matSize, NumIter)
+		REGISTERTESTCASE(testEigenMatrix, matSize, NumIter)
+		REGISTERTESTCASE(testMyMatrix, matSize, NumIter)
+	}
+
 }
