@@ -74,25 +74,25 @@
     <LinkIncremental>true</LinkIncremental>
     <OutDir>$(SolutionDir)bin\$(Configuration)\$(Platform)</OutDir>
     <IntDir>$(SolutionDir)build\$(Configuration)\$(Platform)</IntDir>
-    <IncludePath>$(SolutionDir)extlib;$(SolutionDir)extlib\eigen\Eigen;$(SolutionDir)src;$(IncludePath)</IncludePath>
+    <IncludePath>$(SolutionDir)..\Matrix\src;$(SolutionDir)extlib\eigen\Eigen;$(SolutionDir)src\testcommon;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
     <OutDir>$(SolutionDir)bin\$(Configuration)\$(Platform)</OutDir>
     <IntDir>$(SolutionDir)build\$(Configuration)\$(Platform)</IntDir>
-    <IncludePath>$(SolutionDir)extlib;$(SolutionDir)extlib\eigen\Eigen;$(SolutionDir)src;$(IncludePath)</IncludePath>
+    <IncludePath>$(SolutionDir)..\Matrix\src;$(SolutionDir)extlib\eigen\Eigen;$(SolutionDir)src\testcommon;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
     <OutDir>$(SolutionDir)bin\$(Configuration)\$(Platform)</OutDir>
     <IntDir>$(SolutionDir)build\$(Configuration)\$(Platform)</IntDir>
-    <IncludePath>$(SolutionDir)extlib;$(SolutionDir)extlib\eigen\Eigen;$(SolutionDir)src;$(IncludePath)</IncludePath>
+    <IncludePath>$(SolutionDir)..\Matrix\src;$(SolutionDir)extlib\eigen\Eigen;$(SolutionDir)src\testcommon;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
     <OutDir>$(SolutionDir)bin\$(Configuration)\$(Platform)</OutDir>
     <IntDir>$(SolutionDir)build\$(Configuration)\$(Platform)</IntDir>
-    <IncludePath>$(SolutionDir)extlib;$(SolutionDir)extlib\eigen\Eigen;$(SolutionDir)src;$(IncludePath)</IncludePath>
+    <IncludePath>$(SolutionDir)..\Matrix\src;$(SolutionDir)extlib\eigen\Eigen;$(SolutionDir)src\testcommon;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>

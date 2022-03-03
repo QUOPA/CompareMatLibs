@@ -2,7 +2,7 @@
 
 #include "matrix/matrix.h"
 #include "Eigen"
-#include "testcommon/testmacros.h"
+#include "testmacros.h"
 
 namespace matrixTwoMatAddition
 {
